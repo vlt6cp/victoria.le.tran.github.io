@@ -1,0 +1,17 @@
+<section class="section background">
+  <div class="section__title">Research</div>
+  <div class="section__content">
+    <p>
+     My dissertation studies how community groups participated in and opposed redevelopment in Los Angeles’ Chinatown from 1975-2005. While redevelopment have been understood to be primarily driven by government officials and rentier elites, community groups and residents are active players in urban politics over neighborhood revitalization and redevelopment. Within systems of urban governance that promote community-engaged redevelopment and participatory governance, claims of community ownership and the performance of community gives local actors legitimacy to define who governs, how they come to govern, and who speaks for the urban poor. While redevelopment projects are open to extensive public engagement processes through stakeholder task forces and public meetings, the practice of community engagement often reduces the community to a bureaucratic checkbox. The “community” then becomes a tool to promote a neighborhood while also creating a boundary for who does and does not belong, whose needs should be prioritized, and who has the right to speak on behalf of the neighborhood.
+   </p>
+   <p>  
+Using the Chinatown Redevelopment Project as a case study, I analyze how the power to define the neighborhood and its priorities was contested by groups with different social, economic, and cultural ties to the space and competing perceptions of their legitimacy to speak for the neighborhood. These contestations over community ownership shape what groups the government legitimized as community representatives, how projects were prioritized and funded, and who benefited from housing and redevelopment projects. I use archival documents, interviews, and historical quantitative data to understand the opportunities and limitations of community engagement in local urban politics and provide important context for current urban studies questions around neighborhood authenticity, community ownership, and displacement in minority and immigrant communities.
+    </p>
+
+    <p>
+My research is generously supported by the <a class="underline-link" href="https://www.russellsage.org/awarded-project/contesting-chinatown-community-ownership-urban-growth-politics" target="_blank">Russell Sage Foundation</a>, the Haynes Lindley Foundation, <a class="underline-link" href="https://challengeinequality.luskin.ucla.edu/2023/09/25/contesting-chinatown-community-ownership-in-urban-growth-politics/" target="_blank">the Luskin Institute on Inequality and Democracy</a>, the Institute of American Cultures, and UCLA’s Asian American Studies Center. 
+    </p>
+
+    <!-- {% include employment-status.html %} -->
+  </div>
+</section>
