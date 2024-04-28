@@ -10,7 +10,9 @@
           </div>
           <div class="job__time">{{job.time}}</div>
         </div>
-        <div class="job__position">{{job.position}}</div>
+        {% for position in job.position %}
+          <div class="job__position">{{position}}</div>
+        {% endfor %}
       </div>
       {% endfor %}
     </div>
