@@ -1,15 +1,13 @@
-- name: The limits of imperial incorporation: Alternative sociological frameworks to study Asian American subjects
-  url: https://onlinelibrary.wiley.com/share/author/U4HIWXQG9GPTZKDKGRWT?target=10.1111/soc4.13069
-  description: This  paper  argues  existing  scholarship  on  Asian  American  communities is limited by an assumption that incorporation into  the  US  can  productively  address  racial  and  economic  precarity.  As  an  alternative,  we  offer “Extinguishing  Asian  (American) Insurgency”, a theoretical framework that incorporates  histories  of  colonialism,  imperialism,  and  postcolonial politics of incorporation into contemporary sociological analyses  of  Asian  subject  formation.  Applying  Du  Boisian  sociology alongside Frantz Fanon and Joy James, the framework adopts a global, relational analysis of Asian Americans and  the  US  state.  We  demonstrate  the  framework's  utility  through two case studies: anti-colonial Sikh diasporic politics through the Gadar Party and US state efforts to tie diasporic South Vietnamese identity to an anti-communist politic. 
+- name: Surf Videos
+  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
   coauthor:
-      url: https://www.kaurharleen.com/
-      name: Harleen Kaur
-  presentation: This paper has been presented at the American Sociological Association Annual Meetings and Brown University’s The Legacy of W.E.B. Du Bois: Crossing Boundaries for Social Justice Conference. 
+      url: https://bchiang7.github.io/halcyon-site/
+      name: Kathy Truong
     
-- name: Neighborhood (Dis)Empowerment: Hyper-local Governance and the Homelessness Crisis in Los Angeles
-  description: In local governance debates, both grassroots organizations and scholars have argued for increasing resident participation in policymaking to reduce inequalities and make politicians more responsive to constituent needs. One means to accomplish this is through neighborhood councils (NCs), which serve as a forum for resident input and an advisory body to elected officials. While these studies focus on internal characteristics that make NCs effective, they overlook how organizational culture shapes members’ understandings of their role in local governance, the issues they prioritize, and the strategies they use to address those issues. We ask: How do neighborhood councils understand their role in urban governance and exert influence particularly in relation to homelessness? What external and internal factors prevent them from doing so? Using Los Angeles neighborhood councils’ participation in homelessness policy as a case study, we analyze interviews, meeting observations, and documents to understand how NCs position themselves in the larger network of homelessness governance and how their strategies are shaped by both internal contestation and their political alignment with external actors. 
+- name: Halcyon Theme
+  url: https://bchiang7.github.io/halcyon-site/
+  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
   coauthor:
-      url: https://soc.ucla.edu/person/katherine-smock/
-      name: Katherine Smock
-  presentation: This paper has been presented at the International Conference on Urban Affairs. 
-
+      url: https://bchiang7.github.io/halcyon-site/
+      name: Vic
+  presentation: Hello world I presented here
