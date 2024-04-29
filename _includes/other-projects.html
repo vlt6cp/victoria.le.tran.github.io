@@ -10,12 +10,13 @@
           <strong>{{project.name}}</strong>
         {% endif %}
       </div>
+      {% if project.coauthor %}
+        <strong>Co-author:</strong><a href="{{project.coauthor.url}}">{{project.coauthor.name}}</a>
+      {% endif %}
       <p>{{project.description}}</p>
-      <div class="project__used">
-        {% for item in project.used %}
-        <span class="project__used__item">{{item.thing}}</span>
-        {% endfor %}
-      </div>
+      {% if project.presentation %}
+        <p><strong>{{project.presentation}}</strong></p>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
