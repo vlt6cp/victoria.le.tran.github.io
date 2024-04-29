@@ -4,7 +4,11 @@
     {% for project in site.data.other-projects %}
     <div class="project">
       <div class="project__name">
-        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+        <% if project.url.exists? %>
+          <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+        <% else %>
+          {{project.name}}
+        <% end %>
       </div>
       <p>{{project.description}}</p>
       <div class="project__used">
