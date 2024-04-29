@@ -1,23 +1,13 @@
 <section class="section other-projects">
   <div class="section__title">Other Projects</div>
   <div class="section__content">
-    {% for project in site.data.other-projects %}
     <div class="project">
       <div class="project__name">
-        {% if project.url %}
-          <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
-        {% else %}
-          <strong>{{project.name}}</strong>
-        {% endif %}
+          <a href="https://myprojecturl.com" target="_blank" class="arrow-link">My Project Name</a>
       </div>
-      {% if project.coauthor %}
-        <strong>Co-author:</strong> <a href="{{project.coauthor.url}}" class="highlight-link">{{project.coauthor.name}}</a>
-      {% endif %}
-      <p>{{project.description}}</p>
-      {% if project.presentation %}
-        <p><strong>{{project.presentation}}</strong></p>
-      {% endif %}
+        <strong>Co-author:</strong> <a href="https://myprojectcoauthor.com" class="highlight-link">Kathy Truong</a>
+      <p>lajljasljdf aksdjflajsflkdjalfjdslkjf description </p>
+        <p><strong>yo sup i presented here</strong></p>
     </div>
-    {% endfor %}
   </div>
 </section>
