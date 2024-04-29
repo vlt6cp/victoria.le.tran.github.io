@@ -1,8 +1,8 @@
-- name: Surf Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: The limits of imperial incorporation: Alternative sociological frameworks to study Asian American subjects
+  description: This  paper  argues  existing  scholarship  on  Asian  American  communities is limited by an assumption that incorporation into  the  US  can  productively  address  racial  and  economic  precarity.  As  an  alternative,  we  offer  <strong>“Extinguishing  Asian  (American) Insurgency”,</strong> a theoretical framework that incorporates  histories  of  colonialism,  imperialism,  and  postcolonial politics of incorporation into contemporary sociological analyses  of  Asian  subject  formation.  Applying  Du  Boisian  sociology alongside Frantz Fanon and Joy James, the framework adopts a global, relational analysis of Asian Americans and  the  US  state.  We  demonstrate  the  framework's  utility  through two case studies: anti-colonial Sikh diasporic politics through the Gadar Party and US state efforts to tie diasporic South Vietnamese identity to an anti-communist politic. 
   coauthor:
-      url: https://bchiang7.github.io/halcyon-site/
-      name: Kathy Truong
+      url: https://www.kaurharleen.com
+      name: Harleen Kaur
     
 - name: Halcyon Theme
   url: https://bchiang7.github.io/halcyon-site/
