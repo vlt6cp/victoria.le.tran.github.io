@@ -11,7 +11,7 @@
         {% endif %}
       </div>
       {% if project.coauthor %}
-        <strong>Co-author:</strong><a href="{{project.coauthor.url}}">{{project.coauthor.name}}</a>
+        <strong>Co-author:</strong> <a href="{{project.coauthor.url}}" class="highlight-link">{{project.coauthor.name}}</a>
       {% endif %}
       <p>{{project.description}}</p>
       {% if project.presentation %}
