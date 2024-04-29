@@ -7,7 +7,7 @@
         {% if project.url %}
           <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
         {% else %}
-          {{project.name}}
+          <strong>{{project.name}}</strong>
         {% endif %}
       </div>
       <p>{{project.description}}</p>
