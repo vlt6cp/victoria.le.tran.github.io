@@ -1,0 +1,32 @@
+name: Deploy Preview
+
+on:
+  pull_request:
+    branches:
+      - main  # or the branch you typically merge PRs into
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js (if you're using Node.js for building)
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build the project
+      run: npm run build # Adjust this command according to your build process
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./path/to/build/output
+        destination_dir: preview/${{ github.head_ref }} # Deploy to a folder named after the PR branch
