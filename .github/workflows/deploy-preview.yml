@@ -3,30 +3,32 @@ name: Deploy Preview
 on:
   pull_request:
     branches:
-      - master  # or the branch you typically merge PRs into
+      - '**'  # This triggers the action on any pull request
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
     - name: Check out the repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Set up Node.js (if you're using Node.js for building)
-      uses: actions/setup-node@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        node-version: '14'
+        ruby-version: 3.1  # Specify the Ruby version your Jekyll site uses
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        gem install bundler
+        bundle install
 
-    - name: Build the project
-      run: npm run build # Adjust this command according to your build process
+    - name: Build Jekyll site
+      run: bundle exec jekyll build -d ./_site
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./path/to/build/output
+        publish_dir: ./_site
         destination_dir: preview/${{ github.head_ref }} # Deploy to a folder named after the PR branch
