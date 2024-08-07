@@ -3,7 +3,7 @@ name: Deploy Preview
 on:
   pull_request:
     branches:
-      - main  # or the branch you typically merge PRs into
+      - master  # or the branch you typically merge PRs into
 
 jobs:
   deploy:
