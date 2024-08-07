@@ -2,8 +2,8 @@
   padding: 120px 100px;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row; /* Change to row to align left and right sections side by side */
+  justify-content: space-between; /* Space between the left and right sections */
   max-width: 1440px;
   margin: 0 auto;
   @include weird-medium {
@@ -11,9 +11,25 @@
   }
   @include phablet {
     padding: 120px 50px;
+    flex-direction: column; /* Stack them vertically on smaller screens */
   }
   @include mobile {
     padding: 70px 50px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1; /* Allow it to take available space */
+  }
+
+  &__right {
+    flex: 1; /* Allow it to take available space */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image vertically */
+    padding-left: 20px; /* Add some space between left and right */
   }
 
   &__hello, &__tagline {
