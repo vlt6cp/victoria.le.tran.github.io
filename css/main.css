@@ -422,11 +422,13 @@ strong {
   .intro {
     padding: 120px 50px;
     flex-direction: column; /* Stack them vertically on smaller screens */
+    height: auto;
   }
 }
 @media screen and (max-width: 480px) {
   .intro {
     padding: 70px 50px;
+    height: auto;
   }
 }
 .intro__left {

@@ -12,9 +12,11 @@
   @include phablet {
     padding: 120px 50px;
     flex-direction: column; /* Stack them vertically on smaller screens */
+    height: auto;
   }
   @include mobile {
     padding: 70px 50px;
+    height: auto;
   }
 
   &__left {
