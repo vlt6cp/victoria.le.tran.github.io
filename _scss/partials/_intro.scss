@@ -30,6 +30,15 @@
     justify-content: center; /* Center the image */
     align-items: center; /* Center the image vertically */
     padding-left: 20px; /* Add some space between left and right */
+  
+    img {
+      width: 100%; /* Make the image responsive to its container */
+      height: auto; /* Maintain the aspect ratio */
+      max-width: 300px; /* Limit the maximum width */
+      aspect-ratio: 16 / 9; /* Set your desired aspect ratio */
+      object-fit: cover; /* Ensure the image covers the area and maintains aspect ratio */
+    }
+  
   }
 
   &__hello, &__tagline {
