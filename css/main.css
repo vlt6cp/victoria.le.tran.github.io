@@ -446,8 +446,18 @@ strong {
   width: 100%; /* Make the image responsive to its container */
   height: auto; /* Maintain the aspect ratio */
   max-width: 300px; /* Limit the maximum width */
-  aspect-ratio: 16/9; /* Set your desired aspect ratio */
+  aspect-ratio: 2/3; /* Set your desired aspect ratio */
   object-fit: cover; /* Ensure the image covers the area and maintains aspect ratio */
+}
+@media screen and (max-width: 550px) {
+  .intro__right {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro__right {
+    padding-top: 30px;
+  }
 }
 .intro__hello, .intro__tagline {
   font-size: 2.5rem;
