@@ -1,6 +1,6 @@
 .intro {
   padding: 120px 100px;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: row; /* Change to row to align left and right sections side by side */
   justify-content: space-between; /* Space between the left and right sections */
@@ -12,11 +12,9 @@
   @include phablet {
     padding: 120px 50px;
     flex-direction: column; /* Stack them vertically on smaller screens */
-    height: auto;
   }
   @include mobile {
     padding: 70px 50px;
-    height: auto;
   }
 
   &__left {
