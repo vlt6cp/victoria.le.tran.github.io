@@ -1,26 +1,10 @@
 # Site settings
-name: Victoria Le Tran
-title: Victoria Le Tran | PhD candidate in Sociology | UCLA
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+name: Victoria Tran
+title: Victoria Tran | PhD candidate in Sociology | UCLA
+description: Victoria Tran is a PhD candidate in the Sociology department at UCLA.
 url: "https://tranvictoria.com"
 baseurl: ""
-email: victoria.le.tran@gmail.com
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
-social:
-  - title: email
-    url: mailto:brittany.chiang@gmail.com
-  - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
-  - title: github
-    url: https://github.com/bchiang7
-  - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+email: vlt6cp@ucla.edu
 
 # Build settings
 markdown: kramdown
